@@ -17,3 +17,11 @@ vector<string> parser(string& input, vector<string>& _out){
     }
     return _out;
 }
+
+
+int main()
+{
+    vector<string> s;
+    string t = "Welcome to git community :- ))";
+    s = parser(t, s);
+}
